@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Libre+Franklin:wght@800&family=Magra:wght@700&display=swap');
+
+:root {
+    --primary-100: #c21d03;
+    --primary-200: #fd5732;
+    --primary-300: #ffb787;
+    --accent-100: #393939;
+    --accent-200: #bebebe;
+    --text-100: #232121;
+    --text-200: #4b4848;
+    --bg-100: #fbfbfb;
+    --bg-200: #f1f1f1;
+    --bg-300: #c8c8c8;
+}
+
+* {
+    color: var(--text-100);
+}
+
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+    font-family: 'Magra', sans-serif;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+#posts-container {
+    width: 70%;
+}
